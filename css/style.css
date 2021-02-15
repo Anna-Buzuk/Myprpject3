@@ -63,6 +63,7 @@ padding-left: 250px;
     font-weight: 700;
     margin-left: 215px;
     margin-right: 93px;
+    text-decoration: none;
 }
 
 .Studoi{
@@ -74,9 +75,11 @@ padding-left: 250px;
     color: white;
     font-weight: 700;
 }
+
 .Studia{
     color:  #2196F3;
     font-weight: 500;
+    text-decoration: none;
    
 }
 .footer{
@@ -133,7 +136,7 @@ padding-left: 250px;
        
    }
 
-   body{
+body{
        font-family: 'roboto'
    }
 
@@ -144,12 +147,13 @@ padding-left: 250px;
  .black{
      font-weight: 500;
      color: black;
-     padding-left: 50px;
+     padding-left: 50px; text-decoration: none;
  }
 
  .tel{
      color:#757575;
      font-weight: 500;
+     text-decoration: none;
  }
 
  .adres{
@@ -159,7 +163,8 @@ padding-left: 250px;
  }
 
  .MT{
-      color: rgba(255, 255, 255, 0.6)
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
  }
 
  .MT1{
@@ -248,6 +253,7 @@ padding-left: 250px;
 .Webst{
 margin-top: 150px;
 color: #2196F3;
+text-decoration: none;
     
 }
 .card{
@@ -308,12 +314,7 @@ padding: 30px;
     width: 128px;
     left: 576px;
     top: 174px;
-    border-color: #F5F4FA;
     margin-right: 8px;
-
-
-
-
 }
 
 .glknopka{
@@ -324,7 +325,6 @@ padding: 30px;
     width: 73px;
     left: 495px;
     top: 174px;
-    border-radius: 4px; 
     margin-left: 350px;
     margin-right: 8px;
     margin-top: 100px;
@@ -342,9 +342,6 @@ padding: 30px;
 
 .card-pf{
     padding-left: 30px;
-    margin-right: 50px;
-
-
 }
 
 .blok-clor-imie{
@@ -386,6 +383,7 @@ font-size: 26px;
 font-weight: 400;
 line-height: 36px;
 margin-left: 215px;
+text-decoration: none;
 
 }
 
