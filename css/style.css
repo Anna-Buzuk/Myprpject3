@@ -173,16 +173,14 @@ body{
      ;
  }
 
- .Container{
-    Width:1600px;
+ .navgla{
     Height:80px;
     margin-bottom: 25px;
     display: flexbox;
     padding-left: 0px;
  }
 
- .Container2{
-    Width:1600px;
+ .Cglown{
     Height:600px;
     padding: 0% 15px;
     padding-top: 80px;
@@ -192,8 +190,7 @@ body{
     text-align: center;
  }
 
- .Container3{
-    Width:1200px;
+ .Robota{
     Height:400px;
     justify-content: space-between;
     align-items: center;
@@ -203,16 +200,14 @@ body{
     
  }
 
- .Conteiner4{
-    Width:1200px;
+ .fotorab{
     Height:400px;
     justify-content: space-between;
     align-items: center;
     margin-right: 250px;
  }
 
- .Container5{
-  Width:1600px;
+ .CWQfoter{
   Height: 648px;
   Top: 1449px;
   
