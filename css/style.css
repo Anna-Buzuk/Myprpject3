@@ -1,6 +1,7 @@
 header,
 section,
 footer{
+    overflow-x: hidden;
 
 }
 
@@ -44,15 +45,13 @@ padding-left: 250px;
     height: 50px;
     margin-left: 732px;
     margin-right: 732px;
+    border: none;
 }
 
 .but2{
     background: #F5F4FA;
 }
 
-.footer{
-    
-}
 
 .color{
     color: #FFFFFF;
@@ -84,7 +83,6 @@ padding-left: 250px;
 }
 .footer{
     background-color: #2F303A;
-    ;
 }
 .komanda{
     background-color: #F5F4FA;
@@ -140,14 +138,15 @@ body{
        font-family: 'roboto'
    }
 
-  .Studiaa{
+.Studiaa{
    font-weight: 500;
    color: black;
  }
  .black{
      font-weight: 500;
      color: black;
-     padding-left: 50px; text-decoration: none;
+     padding-left: 50px; 
+     text-decoration: none;
  }
 
  .tel{
@@ -159,7 +158,6 @@ body{
  .adres{
      font-weight: 400;
      color: #FFFFFF;
-     ;
  }
 
  .MT{
@@ -169,8 +167,7 @@ body{
 
  .MT1{
      color: #757575;
-     font-weight: 500
-     ;
+     font-weight: 500;
  }
 
  .navgla{
@@ -178,6 +175,7 @@ body{
     margin-bottom: 25px;
     display: flexbox;
     padding-left: 0px;
+    
  }
 
  .Cglown{
@@ -188,6 +186,7 @@ body{
     text-transform: uppercase;
     Size:44px;
     text-align: center;
+    border: none;
  }
 
  .Robota{
@@ -257,8 +256,9 @@ padding-left: 30px;
 
 img
 {
-    display: block;
+display: block;
 }
+
 .imie{
 background-color:white;
 padding: 30px;
@@ -310,6 +310,7 @@ padding: 30px;
     left: 576px;
     top: 174px;
     margin-right: 8px;
+    border: none;
 }
 
 .glknopka{
@@ -324,6 +325,7 @@ padding: 30px;
     margin-right: 8px;
     margin-top: 100px;
     margin-bottom: 50px;
+    border: none;
 }
 
 .blok-portfolio{
@@ -388,3 +390,6 @@ text-decoration: none;
    margin-top: -50px;
 }
 
+
+<a href="./index.html" class="WSY">WebStudio</a>
+<a href="#" class="Webst"> WebStudio</a>
