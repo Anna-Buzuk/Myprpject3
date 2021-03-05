@@ -479,7 +479,9 @@ footer{
   }
 
   .lOGO{ 
-   margin-left: 215px;
+  margin: auto;
+  display: flex;
+justify-content: center;
   }
   
   .fmargin{
