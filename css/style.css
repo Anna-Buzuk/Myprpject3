@@ -17,16 +17,19 @@ footer{
   }
   
   .navh,
+  .navhport,
   .nav-list,
   .nav-st {
     display: flex;
   }
   
   .navh,
-  .navh div {
+  .navh div,
+  .navhport {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .navh {
@@ -34,6 +37,13 @@ footer{
     height: 80px;
     margin-bottom: 25px;
     margin-top: 24px;
+
+  }
+
+  .navhport{
+    width: auto;
+    height: 80px;
+    border-bottom: 1px solid #EEE;
   }
   
   .heder a {
@@ -367,23 +377,18 @@ footer{
   }
   
   .blok-portfolio {
-    background-color: #ffffff;
-    padding-bottom: 50px;
-    padding-left: 40px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin:  auto;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 0px 15px 94px 15px;
   }
   
   .card-pf {
-    
-    margin: 0 auto;
-    justify-content: space-between;
-    padding: 0 30px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+    border: 1px solid #EEE; 
   }
   
   .blok-clor-imie {
@@ -438,6 +443,7 @@ footer{
     flex-wrap: wrap;
     background-color: #ffffff;
     margin: 0 auto;
+    
   }
   
   .rozm {
@@ -456,6 +462,14 @@ footer{
     box-sizing: border-box;
 
   }
+
+  .cont{
+    width: auto;
+    box-sizing: border-box;
+    margin: auto;
+    
+  }
+
   
   footer {
     padding: 60px 0;
@@ -464,10 +478,8 @@ footer{
     margin: 0;
   }
 
-  .lOGO{
-      
-    display: flex;
-    justify-content: space-between;
+  .lOGO{ 
+   margin-left: 215px;
   }
   
   .fmargin{
@@ -483,4 +495,7 @@ footer{
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
+  }
+  .lleft{
+      margin: 0 ;
   }
