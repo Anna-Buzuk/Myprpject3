@@ -20,7 +20,8 @@ footer{
   .navhport,
   .nav-list,
   .navlistpoftfolio,
-  .nav-st {
+  .nav-st,
+  .nav-st-portfolio {
     display: flex;
   }
   
@@ -34,7 +35,7 @@ footer{
   }
   
   .navlistpoftfolio{
-   
+   margin-left: 93px;
   }
 
 
@@ -47,9 +48,14 @@ footer{
   }
 
   .navhport{
-    width: 1500px;
-    height: 80px;
     
+    height: 80px;
+    width: 100%;
+    
+  }
+
+  .nav-st-portfolio{
+    margin: 0 auto;
   }
   
   .heder a {
@@ -488,6 +494,8 @@ footer{
   .cont{
     border: 1px solid #ECECEC;
     margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
   }
 
   
