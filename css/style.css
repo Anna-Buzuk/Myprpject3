@@ -486,7 +486,8 @@ footer{
   }
 
   .cont{
-    border: 1px solid #ECECEC
+    border: 1px solid #ECECEC;
+    margin: 0 auto;
   }
 
   
