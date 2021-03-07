@@ -528,6 +528,8 @@ footer{
   }
   
   .lleft{
-    margin-left: 335px;
+    justify-content: center;
+    margin: auto ;
+    display: block;
   }
   
